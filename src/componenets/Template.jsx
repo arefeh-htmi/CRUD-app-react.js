@@ -76,7 +76,7 @@ class Template extends Component {
     const obj=this.state.myData[this.findClickedIndex(id)];
     this.setState({ items: { name: obj.name, mail: obj.mail, id: obj.id } });
     const index =this.findClickedIndex(id);
-    this.setState({ toEditIndex: index });
+    this.setState({ toEditIndex:index });
   }
   render() {
     return (
